@@ -1,0 +1,21 @@
+/* To make sure nav bar is always at top */
+body { 
+	padding-top: 70px !important; 
+}
+
+/* Chat window is always at bottom */
+.chat-popup {
+  width: 300px;
+  position: fixed;
+  bottom: 0px;
+  right: 20px;
+}
+
+/* Blue background for nav bar */
+.navbar{
+	background-color: orangered;
+}
+
+.left-side-bar{
+	background-color: ;
+}

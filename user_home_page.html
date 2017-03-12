@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Delivery</title>
+
+    <!-- Bootstrap's CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/user_home_page.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Our Delivery layout will go here. -->
+
+    <!-- Navigation bar contanining delivery, order, and messages buttons -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+      <button type-"button" class="btn btn-default navbar-btn"> 
+      <span class="glyphicon glyphicon-piggy-bank"> Delivery </span></button>
+      <button type-"button" class="btn btn-default navbar-btn">
+      <span class ="glyphicon glyphicon-cutlery">  Order </span> </button>
+      <button type-"button" class="btn btn-default navbar-btn"> 
+      <span class="glyphicon glyphicon-envelope"> Messages </span></button>
+      </div>
+    </nav>
+
+    <!-- The container for our grid. The outermost grid must be placed within
+     a `container` or `container-fluid` class. (Meaning: If you nest a grid
+     within a grid, you should not define another `container`)
+     What's the difference between these two types of container? There's a
+     good answer here: http://stackoverflow.com/a/22263969 -->
+     <div class="container">
+      <!-- The row that contains the three main columns of the website. -->
+      <div class="row">
+        <!-- Left sidebar: A cell that spans 2 columns with username, menu, and fav dish bars -->
+        <div class="col-md-4">
+        <div class ="left-side-bar">
+          <ul class="nav nav-pills nav-stacked">
+            <li role="presentation"><a href="#"> Username </a></li>
+            <li role="presentation"><a href="#"> Menu </a></li>
+            <li role="presentation"><a href="#"> My Favorite Dish </a></li>
+            <li role="presentation"><a href="#"> Invite Friends For Free Orders </a></li>
+        </div>
+          </ul>
+        </div>
+        <!-- Main feed: A cell that spans 7 columns -->
+        <div class="col-md-6">
+          What's our users are recommending for today
+          <div style="height: 9999px;">
+
+          </div>
+        </div>
+        <!-- Right sidebar: A cell that spans 3 columns -->
+        <div class="col-md-2">
+          Advertisements
+        </div>
+      </div>
+    </div>
+
+    <div class="chat-popup">
+       CHAT BOX
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
